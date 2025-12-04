@@ -1,0 +1,587 @@
+[
+    {
+        "block_id": "A_INTIMACY",
+        "title": "Nivel 1: Fuego y Piel (Intimidad)",
+        "description": "Calibrando libido y límites físicos.",
+        "questions": [
+            {
+                "id": "A1_FIRST_NIGHT",
+                "q": "La cita ha ido perfecta. Hay tensión. ¿Qué pasa esa noche?",
+                "options": [
+                    {
+                        "value": "low_libido",
+                        "text": "Un beso en la mejilla. Soy tradicional."
+                    },
+                    {
+                        "value": "tease",
+                        "text": "Caliento el ambiente en el portal, pero me voy a casa solo/a."
+                    },
+                    {
+                        "value": "high_libido",
+                        "text": "Sexo. La vida es corta y hay química."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "A2_CONTROL",
+                "q": "En la cama (o en la vida), ¿cuál es tu dinámica?",
+                "options": [
+                    {
+                        "value": "dominant",
+                        "text": "Me gusta mandar y tener el control total."
+                    },
+                    {
+                        "value": "submissive",
+                        "text": "Prefiero dejarme llevar y que me usen."
+                    },
+                    {
+                        "value": "switch",
+                        "text": "50/50. A veces doy, a veces recibo."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "A3_EXPERIMENTATION",
+                "q": "Te proponen un fetiche que nunca has probado (y suena raro).",
+                "options": [
+                    {
+                        "value": "vanilla",
+                        "text": "No. Me da asco o miedo. Paso."
+                    },
+                    {
+                        "value": "curious",
+                        "text": "Lo pruebo una vez. Si no me gusta, paro."
+                    },
+                    {
+                        "value": "kinky",
+                        "text": "Probablemente ya lo he hecho yo antes."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "A4_PDA",
+                "q": "Muestras de afecto en público (besos, manos, tocamientos).",
+                "options": [
+                    {
+                        "value": "cold",
+                        "text": "Cero. Me da vergüenza ajena."
+                    },
+                    {
+                        "value": "moderate",
+                        "text": "Darnos la mano y algún pico está bien."
+                    },
+                    {
+                        "value": "touchy",
+                        "text": "No puedo quitarle las manos de encima, me da igual quién mire."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "A5_POST_COITAL",
+                "q": "Después del sexo...",
+                "options": [
+                    {
+                        "value": "leave",
+                        "text": "Me visto y me voy (o que se vaya). Necesito mi espacio."
+                    },
+                    {
+                        "value": "talk",
+                        "text": "Me quedo hablando de la vida o fumando."
+                    },
+                    {
+                        "value": "cuddle",
+                        "text": "Cucharita obligatoria hasta dormirnos."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "block_id": "B_CONFLICT",
+        "title": "Nivel 2: Ego y Guerra (Conflicto)",
+        "description": "Calibrando toxicidad y reacción bajo estrés.",
+        "questions": [
+            {
+                "id": "B1_JEALOUSY",
+                "q": "Ves a tu pareja riéndose y tocando el brazo de alguien atractivo en una fiesta.",
+                "options": [
+                    {
+                        "value": "secure",
+                        "text": "Me da igual, confío en mi valor."
+                    },
+                    {
+                        "value": "territorial",
+                        "text": "Me acerco y marco territorio sutilmente."
+                    },
+                    {
+                        "value": "toxic",
+                        "text": "Monto un pollo o me voy indignado."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "B2_GHOSTING",
+                "q": "Llevas saliendo 2 semanas. Te deja en 'Leído' por 6 horas.",
+                "options": [
+                    {
+                        "value": "anxious",
+                        "text": "Le escribo otra vez preguntando si está bien."
+                    },
+                    {
+                        "value": "secure",
+                        "text": "Espero. Tendrá cosas que hacer."
+                    },
+                    {
+                        "value": "petty",
+                        "text": "Cuando me conteste, tardo yo 12 horas en responder."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "B3_ARGUMENTS",
+                "q": "En una discusión acalorada, tú...",
+                "options": [
+                    {
+                        "value": "emotional",
+                        "text": "Lloro o me hago la víctima para que pare."
+                    },
+                    {
+                        "value": "logical",
+                        "text": "Intento razonar fríamente sin alzar la voz."
+                    },
+                    {
+                        "value": "explosive",
+                        "text": "Grito, insulto y saco trapos sucios del pasado."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "B4_EXES",
+                "q": "¿Qué relación tienes con tus ex?",
+                "options": [
+                    {
+                        "value": "friends",
+                        "text": "Somos amigos, nos seguimos en redes."
+                    },
+                    {
+                        "value": "neutral",
+                        "text": "Indiferencia total. Son el pasado."
+                    },
+                    {
+                        "value": "hated",
+                        "text": "Son todos unos locos/as psicópatas."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "B5_APOLOGY",
+                "q": "Te has equivocado claramente. ¿Pides perdón?",
+                "options": [
+                    {
+                        "value": "stubborn",
+                        "text": "Nunca. Me cuesta la vida admitir errores."
+                    },
+                    {
+                        "value": "direct",
+                        "text": "Sí, pido perdón rápido y paso página."
+                    },
+                    {
+                        "value": "defensive",
+                        "text": "Digo 'Lo siento, PERO tú hiciste...' (Excusa)."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "block_id": "C_MATERIAL",
+        "title": "Nivel 3: Dinero y Ambición",
+        "description": "Calibrando estilo de vida y generosidad.",
+        "questions": [
+            {
+                "id": "C1_THE_BILL",
+                "q": "Llega la cuenta de la cena (100€).",
+                "options": [
+                    {
+                        "value": "provider",
+                        "text": "Pago yo todo. Me gusta invitar."
+                    },
+                    {
+                        "value": "traditional",
+                        "text": "Espero que pague el otro (por caballerosidad/detalle)."
+                    },
+                    {
+                        "value": "pragmatic",
+                        "text": "Bizum a medias. Cuentas claras."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "C2_AMBITION",
+                "q": "¿Qué lugar ocupa el trabajo en tu vida?",
+                "options": [
+                    {
+                        "value": "chill",
+                        "text": "Trabajo para vivir. Si pudiera no hacer nada, no haría nada."
+                    },
+                    {
+                        "value": "balanced",
+                        "text": "Me gusta mi trabajo, pero a las 18:00 soy otra persona."
+                    },
+                    {
+                        "value": "workaholic",
+                        "text": "Mi carrera es mi prioridad número 1. El resto espera."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "C3_GIFTS",
+                "q": "Es vuestro aniversario. ¿Qué esperas?",
+                "options": [
+                    {
+                        "value": "material",
+                        "text": "Algo caro y de marca. El precio importa."
+                    },
+                    {
+                        "value": "sentimental",
+                        "text": "Una carta escrita a mano o algo hecho por ti."
+                    },
+                    {
+                        "value": "experience",
+                        "text": "Un viaje o una cena, nada de objetos."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "C4_PLANNING",
+                "q": "Vamos a hacer un viaje de fin de semana.",
+                "options": [
+                    {
+                        "value": "luxury",
+                        "text": "Hotel 5 estrellas y Uber. La comodidad se paga."
+                    },
+                    {
+                        "value": "adventure",
+                        "text": "Mochila, hostal barato y a la aventura."
+                    },
+                    {
+                        "value": "controller",
+                        "text": "Tengo un Excel con cada minuto planificado."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "C5_FUTURE",
+                "q": "Tu visión financiera a 5 años.",
+                "options": [
+                    {
+                        "value": "yolo",
+                        "text": "Vivir al día. Mañana podría morirme."
+                    },
+                    {
+                        "value": "saver",
+                        "text": "Ahorrar e invertir. Quiero libertad financiera."
+                    },
+                    {
+                        "value": "hustler",
+                        "text": "Montar un imperio y ser rico cueste lo que cueste."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "block_id": "D_SOCIAL_POLITICS",
+        "title": "Nivel 4: Tribu y Valores",
+        "description": "Calibrando política y batería social.",
+        "questions": [
+            {
+                "id": "D1_POLITICS",
+                "q": "Tu cita tiene una ideología política opuesta a la tuya.",
+                "options": [
+                    {
+                        "value": "dealbreaker",
+                        "text": "Imposible. No puedo estar con alguien que vota a 'esos'."
+                    },
+                    {
+                        "value": "debater",
+                        "text": "Me pone. Me encantan los debates intensos con vino."
+                    },
+                    {
+                        "value": "indifferent",
+                        "text": "Me da igual mientras no sea un fanático."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "D2_HUMOR",
+                "q": "¿De qué nos podemos reír?",
+                "options": [
+                    {
+                        "value": "pc",
+                        "text": "Humor blanco. No me gustan las ofensas."
+                    },
+                    {
+                        "value": "dark",
+                        "text": "Humor negro. Me río de la muerte, tragedias y minorías."
+                    },
+                    {
+                        "value": "silly",
+                        "text": "Memes absurdos y tonterías sin sentido."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "D3_SOCIAL_BATTERY",
+                "q": "Es viernes noche. El plan ideal es:",
+                "options": [
+                    {
+                        "value": "party",
+                        "text": "Discoteca, gente, ruido hasta las 6 AM."
+                    },
+                    {
+                        "value": "social",
+                        "text": "Cena con 4 amigos íntimos y unas copas."
+                    },
+                    {
+                        "value": "homebody",
+                        "text": "Sofá, peli y silencio absoluto. Odio a la gente."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "D4_FEMINISM",
+                "q": "Sale el tema del feminismo/igualdad en la cena.",
+                "options": [
+                    {
+                        "value": "activist",
+                        "text": "Soy muy activista. Es un tema central en mi vida."
+                    },
+                    {
+                        "value": "traditional",
+                        "text": "Creo que se nos ha ido de las manos últimamente."
+                    },
+                    {
+                        "value": "neutral",
+                        "text": "Creo en la igualdad, pero paso de etiquetas y polémicas."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "D5_DRUGS",
+                "q": "¿Consumo de sustancias (alcohol, tabaco, otras)?",
+                "options": [
+                    {
+                        "value": "sober",
+                        "text": "Cuerpo sano. No fumo y bebo poco o nada."
+                    },
+                    {
+                        "value": "social",
+                        "text": "Me tomo mis copas y fumo socialmente."
+                    },
+                    {
+                        "value": "party_hard",
+                        "text": "Me gusta experimentar y desfasar los fines de semana."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "block_id": "E_HOBBIES",
+        "title": "Nivel 5: Obsesiones y Vicios",
+        "description": "Calibrando compatibilidad de tiempo libre.",
+        "questions": [
+            {
+                "id": "E1_GAMING",
+                "q": "¿Videojuegos?",
+                "options": [
+                    {
+                        "value": "hater",
+                        "text": "Pérdida de tiempo. Madura ya."
+                    },
+                    {
+                        "value": "casual",
+                        "text": "Un FIFA o Mario Kart de vez en cuando."
+                    },
+                    {
+                        "value": "gamer",
+                        "text": "Es mi hobby principal. Puedo estar 5h seguidas."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "E2_PETS",
+                "q": "¿Mascotas?",
+                "options": [
+                    {
+                        "value": "no",
+                        "text": "No me gustan o soy alérgico. Mejor sin pelos."
+                    },
+                    {
+                        "value": "dog",
+                        "text": "Soy de perros. Quiero salir al campo y tirar la pelota."
+                    },
+                    {
+                        "value": "cat",
+                        "text": "Soy de gatos. Independencia y ronroneos."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "E3_TRAVEL_STYLE",
+                "q": "¿Qué buscas al viajar?",
+                "options": [
+                    {
+                        "value": "relax",
+                        "text": "Resort, playa y no mover un dedo."
+                    },
+                    {
+                        "value": "culture",
+                        "text": "Museos, historia y patear la ciudad."
+                    },
+                    {
+                        "value": "foodie",
+                        "text": "Todo gira en torno a dónde vamos a comer."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "E4_MUSIC",
+                "q": "Tienes el control de la música en el coche (Aux cord).",
+                "options": [
+                    {
+                        "value": "mainstream",
+                        "text": "Top 50 Spotify. Reggaeton y Pop actual."
+                    },
+                    {
+                        "value": "alternative",
+                        "text": "Indie, Rock o cosas que probablemente no conozcas."
+                    },
+                    {
+                        "value": "electronic",
+                        "text": "Techno, House. Necesito BPMs."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            },
+            {
+                "id": "E5_CURIOSITY",
+                "q": "¿Te gusta aprender cosas nuevas?",
+                "options": [
+                    {
+                        "value": "low",
+                        "text": "No mucho. Prefiero desconectar y ver series."
+                    },
+                    {
+                        "value": "high",
+                        "text": "Sí, me obsesiono con temas random (historia, espacio, IA)."
+                    },
+                    {
+                        "value": "spiritual",
+                        "text": "Me va más el rollo astrología, energías y autoconocimiento."
+                    },
+                    {
+                        "value": "custom",
+                        "text": "[Escribe tu respuesta real...]"
+                    }
+                ]
+            }
+        ]
+    }
+]
