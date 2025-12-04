@@ -6,12 +6,12 @@ import Stripe from "stripe"
 
 // Initialize Supabase Admin Client (Service Role)
 // We use this because the webhook is not authenticated as a user
-const supabaseAdmin = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
 export async function POST(req: Request) {
+    const supabaseAdmin = createClient(
+        process.env.NEXT_PUBLIC_SUPABASE_URL!,
+        process.env.SUPABASE_SERVICE_ROLE_KEY!
+    )
+
     const body = await req.text()
     const signature = (await headers()).get("stripe-signature") as string
 
@@ -37,19 +37,6 @@ export async function POST(req: Request) {
 
         if (userId && creditsAmount) {
             console.log(`Processing payment for User ${userId}: +${creditsAmount} credits`)
-
-            // Update User Credits
-            // We use the RPC 'deduct_credit' logic but in reverse, or just direct update since we are admin
-            // But wait, we don't have an 'add_credit' RPC. Let's do a direct update or upsert.
-
-            // First, get current balance to be safe, or use an atomic increment if possible.
-            // Supabase/Postgres doesn't have a simple "increment" via JS SDK without RPC usually, 
-            // but we can use a custom RPC or just read-modify-write since this is a low-concurrency event per user.
-            // Better: Create an RPC for adding credits to be atomic.
-            // For now, let's try to do it via a direct query if possible, or just read-update.
-
-            // Let's use a raw SQL query via rpc if we had one, but we don't.
-            // Let's just read and update. It's acceptable for an MVP.
 
             const { data: currentCredit, error: readError } = await supabaseAdmin
                 .from('user_credits')
